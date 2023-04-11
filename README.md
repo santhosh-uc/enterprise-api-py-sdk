@@ -82,7 +82,8 @@ Authentication.invalidate_token()
 
 ```
 ## Python SDK Usage
-Reference : UniCourt API documentation for Python sdk 
+UniCourt API documentation for Python sdk 
+
 | Class | Method | Description |
 | --- | --- | --- |
 | Authentication | generate_new_token | This endpoint allows you to generate a new access token, which is a required field for all UniCourt API endpoints except for the Authentication API. To generate a new token, you must provide your Client ID and Client Secret ID which you can find by logging into your UniCourt account. At any time, you can have a maximum of 10 active access tokens. The tokens never expire and, if you make a request which would otherwise lead to you having more than 10 active tokens, you will receive an error message. | 
